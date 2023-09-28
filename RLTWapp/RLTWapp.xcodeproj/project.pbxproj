@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729752AC61B6E00C769DB /* RLTWappApp.swift */; };
+		808729782AC61B6E00C769DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729772AC61B6E00C769DB /* ContentView.swift */; };
+		8087297A2AC61B6F00C769DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808729792AC61B6F00C769DB /* Assets.xcassets */; };
+		8087297D2AC61B6F00C769DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8087297C2AC61B6F00C769DB /* Preview Assets.xcassets */; };
+		808729872AC61B7000C769DB /* RLTWappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729862AC61B7000C769DB /* RLTWappTests.swift */; };
+		808729912AC61B7000C769DB /* RLTWappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729902AC61B7000C769DB /* RLTWappUITests.swift */; };
+		808729932AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808729832AC61B6F00C769DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8087296A2AC61B6E00C769DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808729712AC61B6E00C769DB;
+			remoteInfo = RLTWapp;
+		};
+		8087298D2AC61B7000C769DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8087296A2AC61B6E00C769DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808729712AC61B6E00C769DB;
+			remoteInfo = RLTWapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		808729722AC61B6E00C769DB /* RLTWapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLTWapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		808729752AC61B6E00C769DB /* RLTWappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappApp.swift; sourceTree = "<group>"; };
+		808729772AC61B6E00C769DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		808729792AC61B6F00C769DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8087297C2AC61B6F00C769DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		808729822AC61B6F00C769DB /* RLTWappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLTWappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808729862AC61B7000C769DB /* RLTWappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappTests.swift; sourceTree = "<group>"; };
+		8087298C2AC61B7000C769DB /* RLTWappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLTWappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		808729902AC61B7000C769DB /* RLTWappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappUITests.swift; sourceTree = "<group>"; };
+		808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8087296F2AC61B6E00C769DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8087297F2AC61B6F00C769DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808729892AC61B7000C769DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808729692AC61B6E00C769DB = {
+			isa = PBXGroup;
+			children = (
+				808729742AC61B6E00C769DB /* RLTWapp */,
+				808729852AC61B7000C769DB /* RLTWappTests */,
+				8087298F2AC61B7000C769DB /* RLTWappUITests */,
+				808729732AC61B6E00C769DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808729732AC61B6E00C769DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808729722AC61B6E00C769DB /* RLTWapp.app */,
+				808729822AC61B6F00C769DB /* RLTWappTests.xctest */,
+				8087298C2AC61B7000C769DB /* RLTWappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808729742AC61B6E00C769DB /* RLTWapp */ = {
+			isa = PBXGroup;
+			children = (
+				808729752AC61B6E00C769DB /* RLTWappApp.swift */,
+				808729772AC61B6E00C769DB /* ContentView.swift */,
+				808729792AC61B6F00C769DB /* Assets.xcassets */,
+				8087297B2AC61B6F00C769DB /* Preview Content */,
+			);
+			path = RLTWapp;
+			sourceTree = "<group>";
+		};
+		8087297B2AC61B6F00C769DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8087297C2AC61B6F00C769DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		808729852AC61B7000C769DB /* RLTWappTests */ = {
+			isa = PBXGroup;
+			children = (
+				808729862AC61B7000C769DB /* RLTWappTests.swift */,
+			);
+			path = RLTWappTests;
+			sourceTree = "<group>";
+		};
+		8087298F2AC61B7000C769DB /* RLTWappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				808729902AC61B7000C769DB /* RLTWappUITests.swift */,
+				808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */,
+			);
+			path = RLTWappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808729712AC61B6E00C769DB /* RLTWapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808729962AC61B7000C769DB /* Build configuration list for PBXNativeTarget "RLTWapp" */;
+			buildPhases = (
+				8087296E2AC61B6E00C769DB /* Sources */,
+				8087296F2AC61B6E00C769DB /* Frameworks */,
+				808729702AC61B6E00C769DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLTWapp;
+			productName = RLTWapp;
+			productReference = 808729722AC61B6E00C769DB /* RLTWapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808729812AC61B6F00C769DB /* RLTWappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808729992AC61B7000C769DB /* Build configuration list for PBXNativeTarget "RLTWappTests" */;
+			buildPhases = (
+				8087297E2AC61B6F00C769DB /* Sources */,
+				8087297F2AC61B6F00C769DB /* Frameworks */,
+				808729802AC61B6F00C769DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808729842AC61B6F00C769DB /* PBXTargetDependency */,
+			);
+			name = RLTWappTests;
+			productName = RLTWappTests;
+			productReference = 808729822AC61B6F00C769DB /* RLTWappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8087298B2AC61B7000C769DB /* RLTWappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8087299C2AC61B7000C769DB /* Build configuration list for PBXNativeTarget "RLTWappUITests" */;
+			buildPhases = (
+				808729882AC61B7000C769DB /* Sources */,
+				808729892AC61B7000C769DB /* Frameworks */,
+				8087298A2AC61B7000C769DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8087298E2AC61B7000C769DB /* PBXTargetDependency */,
+			);
+			name = RLTWappUITests;
+			productName = RLTWappUITests;
+			productReference = 8087298C2AC61B7000C769DB /* RLTWappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8087296A2AC61B6E00C769DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					808729712AC61B6E00C769DB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					808729812AC61B6F00C769DB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 808729712AC61B6E00C769DB;
+					};
+					8087298B2AC61B7000C769DB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 808729712AC61B6E00C769DB;
+					};
+				};
+			};
+			buildConfigurationList = 8087296D2AC61B6E00C769DB /* Build configuration list for PBXProject "RLTWapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808729692AC61B6E00C769DB;
+			productRefGroup = 808729732AC61B6E00C769DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808729712AC61B6E00C769DB /* RLTWapp */,
+				808729812AC61B6F00C769DB /* RLTWappTests */,
+				8087298B2AC61B7000C769DB /* RLTWappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808729702AC61B6E00C769DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8087297D2AC61B6F00C769DB /* Preview Assets.xcassets in Resources */,
+				8087297A2AC61B6F00C769DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808729802AC61B6F00C769DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8087298A2AC61B7000C769DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8087296E2AC61B6E00C769DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808729782AC61B6E00C769DB /* ContentView.swift in Sources */,
+				808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8087297E2AC61B6F00C769DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808729872AC61B7000C769DB /* RLTWappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808729882AC61B7000C769DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808729912AC61B7000C769DB /* RLTWappUITests.swift in Sources */,
+				808729932AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808729842AC61B6F00C769DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808729712AC61B6E00C769DB /* RLTWapp */;
+			targetProxy = 808729832AC61B6F00C769DB /* PBXContainerItemProxy */;
+		};
+		8087298E2AC61B7000C769DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808729712AC61B6E00C769DB /* RLTWapp */;
+			targetProxy = 8087298D2AC61B7000C769DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		808729942AC61B7000C769DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		808729952AC61B7000C769DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808729972AC61B7000C769DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RLTWapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RLTWapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		808729982AC61B7000C769DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RLTWapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RLTWapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8087299A2AC61B7000C769DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RLTWappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RLTWapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RLTWapp";
+			};
+			name = Debug;
+		};
+		8087299B2AC61B7000C769DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RLTWappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RLTWapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RLTWapp";
+			};
+			name = Release;
+		};
+		8087299D2AC61B7000C769DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RLTWappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RLTWapp;
+			};
+			name = Debug;
+		};
+		8087299E2AC61B7000C769DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.RLTWappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RLTWapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8087296D2AC61B6E00C769DB /* Build configuration list for PBXProject "RLTWapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808729942AC61B7000C769DB /* Debug */,
+				808729952AC61B7000C769DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808729962AC61B7000C769DB /* Build configuration list for PBXNativeTarget "RLTWapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808729972AC61B7000C769DB /* Debug */,
+				808729982AC61B7000C769DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808729992AC61B7000C769DB /* Build configuration list for PBXNativeTarget "RLTWappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8087299A2AC61B7000C769DB /* Debug */,
+				8087299B2AC61B7000C769DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8087299C2AC61B7000C769DB /* Build configuration list for PBXNativeTarget "RLTWappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8087299D2AC61B7000C769DB /* Debug */,
+				8087299E2AC61B7000C769DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8087296A2AC61B6E00C769DB /* Project object */;
+}
