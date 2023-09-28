@@ -71,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8071B3332AC61D670048C215 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				808729772AC61B6E00C769DB /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		808729692AC61B6E00C769DB = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				808729752AC61B6E00C769DB /* RLTWappApp.swift */,
-				808729772AC61B6E00C769DB /* ContentView.swift */,
+				8071B3332AC61D670048C215 /* view */,
 				808729792AC61B6F00C769DB /* Assets.xcassets */,
 				8087297B2AC61B6F00C769DB /* Preview Content */,
 			);
