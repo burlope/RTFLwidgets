@@ -14,6 +14,8 @@
 		808729872AC61B7000C769DB /* RLTWappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729862AC61B7000C769DB /* RLTWappTests.swift */; };
 		808729912AC61B7000C769DB /* RLTWappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729902AC61B7000C769DB /* RLTWappUITests.swift */; };
 		808729932AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */; };
+		8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176492AC6ACEE00CCC015 /* playback.swift */; };
+		8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091764C2AC6B05900CCC015 /* SongImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8087298C2AC61B7000C769DB /* RLTWappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLTWappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808729902AC61B7000C769DB /* RLTWappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappUITests.swift; sourceTree = "<group>"; };
 		808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		809176492AC6ACEE00CCC015 /* playback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playback.swift; sourceTree = "<group>"; };
+		8091764C2AC6B05900CCC015 /* SongImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				808729772AC61B6E00C769DB /* ContentView.swift */,
+				809176492AC6ACEE00CCC015 /* playback.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 		808729742AC61B6E00C769DB /* RLTWapp */ = {
 			isa = PBXGroup;
 			children = (
+				8091764B2AC6B04700CCC015 /* helper */,
 				808729752AC61B6E00C769DB /* RLTWappApp.swift */,
 				8071B3332AC61D670048C215 /* view */,
 				808729792AC61B6F00C769DB /* Assets.xcassets */,
@@ -133,6 +139,14 @@
 				808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */,
 			);
 			path = RLTWappUITests;
+			sourceTree = "<group>";
+		};
+		8091764B2AC6B04700CCC015 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				8091764C2AC6B05900CCC015 /* SongImage.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */,
+				8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */,
 				808729782AC61B6E00C769DB /* ContentView.swift in Sources */,
 				808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */,
 			);
