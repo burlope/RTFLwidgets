@@ -16,6 +16,7 @@
 		808729932AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */; };
 		8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176492AC6ACEE00CCC015 /* playback.swift */; };
 		8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091764C2AC6B05900CCC015 /* SongImage.swift */; };
+		8091764F2AC70B6700CCC015 /* lowerElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091764E2AC70B6700CCC015 /* lowerElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		809176492AC6ACEE00CCC015 /* playback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playback.swift; sourceTree = "<group>"; };
 		8091764C2AC6B05900CCC015 /* SongImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongImage.swift; sourceTree = "<group>"; };
+		8091764E2AC70B6700CCC015 /* lowerElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lowerElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				808729772AC61B6E00C769DB /* ContentView.swift */,
 				809176492AC6ACEE00CCC015 /* playback.swift */,
+				8091764E2AC70B6700CCC015 /* lowerElement.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			files = (
 				8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */,
 				8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */,
+				8091764F2AC70B6700CCC015 /* lowerElement.swift in Sources */,
 				808729782AC61B6E00C769DB /* ContentView.swift in Sources */,
 				808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */,
 			);
