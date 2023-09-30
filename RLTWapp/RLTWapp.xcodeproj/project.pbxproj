@@ -16,7 +16,9 @@
 		808729932AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */; };
 		8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176492AC6ACEE00CCC015 /* playback.swift */; };
 		8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091764C2AC6B05900CCC015 /* SongImage.swift */; };
-		8091764F2AC70B6700CCC015 /* lowerElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8091764E2AC70B6700CCC015 /* lowerElement.swift */; };
+		809176512AC7F05300CCC015 /* backView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176502AC7F05300CCC015 /* backView.swift */; };
+		809176562AC7F32500CCC015 /* mainSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176552AC7F32500CCC015 /* mainSupport.swift */; };
+		809176582AC880A400CCC015 /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176572AC880A400CCC015 /* ProfilePic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +51,9 @@
 		808729922AC61B7000C769DB /* RLTWappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		809176492AC6ACEE00CCC015 /* playback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playback.swift; sourceTree = "<group>"; };
 		8091764C2AC6B05900CCC015 /* SongImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongImage.swift; sourceTree = "<group>"; };
-		8091764E2AC70B6700CCC015 /* lowerElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lowerElement.swift; sourceTree = "<group>"; };
+		809176502AC7F05300CCC015 /* backView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backView.swift; sourceTree = "<group>"; };
+		809176552AC7F32500CCC015 /* mainSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainSupport.swift; sourceTree = "<group>"; };
+		809176572AC880A400CCC015 /* ProfilePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,7 @@
 			children = (
 				808729772AC61B6E00C769DB /* ContentView.swift */,
 				809176492AC6ACEE00CCC015 /* playback.swift */,
-				8091764E2AC70B6700CCC015 /* lowerElement.swift */,
+				809176502AC7F05300CCC015 /* backView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -110,11 +114,13 @@
 		808729742AC61B6E00C769DB /* RLTWapp */ = {
 			isa = PBXGroup;
 			children = (
+				809176522AC7F2A500CCC015 /* Support */,
 				8091764B2AC6B04700CCC015 /* helper */,
 				808729752AC61B6E00C769DB /* RLTWappApp.swift */,
 				8071B3332AC61D670048C215 /* view */,
 				808729792AC61B6F00C769DB /* Assets.xcassets */,
 				8087297B2AC61B6F00C769DB /* Preview Content */,
+				809176572AC880A400CCC015 /* ProfilePic.swift */,
 			);
 			path = RLTWapp;
 			sourceTree = "<group>";
@@ -150,6 +156,14 @@
 				8091764C2AC6B05900CCC015 /* SongImage.swift */,
 			);
 			path = helper;
+			sourceTree = "<group>";
+		};
+		809176522AC7F2A500CCC015 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				809176552AC7F32500CCC015 /* mainSupport.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */,
+				809176582AC880A400CCC015 /* ProfilePic.swift in Sources */,
 				8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */,
-				8091764F2AC70B6700CCC015 /* lowerElement.swift in Sources */,
+				809176562AC7F32500CCC015 /* mainSupport.swift in Sources */,
+				809176512AC7F05300CCC015 /* backView.swift in Sources */,
 				808729782AC61B6E00C769DB /* ContentView.swift in Sources */,
 				808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */,
 			);
