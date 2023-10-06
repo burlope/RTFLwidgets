@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1001,
+        "song": "Wake me up when Semtember ends",
+        "Artist": "Green Day"
+        
+    
+    },
+    {
+        "id": 1002,
+        "song": "drivers license",
+        "Artist": "Olivia Rodrigo"
+        
+    },
+    {
+        "id": 1003,
+        "song": "money tree",
+        "Artist": "Kendrick Lamar"
+        
+    },
+]

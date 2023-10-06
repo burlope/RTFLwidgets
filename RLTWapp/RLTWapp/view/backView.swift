@@ -13,6 +13,9 @@ struct xustomColor {
     // Add more here...
 }
 struct backView: View {
+    //var soName: mainSupport
+    @EnvironmentObject var modelData: ModelData
+    static var SONGS=ModelData().songs
     
     var body: some View {
         
@@ -29,16 +32,13 @@ struct backView: View {
                             Text("Suniya").font(.largeTitle).padding(.leading)
                         }.padding()
                         Spacer()
-                        List{
-                            NavigationLink{
-                                Text("something")
+                        List(modelData.songs){songs in
+                            
                                 
-                            }label: {
-                                Text("something")
-                            }
+                            SongRows(soData: songs)
                         
 
-                        }.padding(.bottom,280).scrollContentBackground(.hidden).navigationTitle("Recently Played")
+                        }.padding(.bottom,280).listRowBackground(xustomColor.up_grad).scrollContentBackground(.hidden).navigationTitle("Recently Played")
                     }.padding(.horizontal).padding(.top,50)
                     Spacer()
                     
@@ -52,6 +52,6 @@ struct backView: View {
 
 struct backView_Previews: PreviewProvider {
     static var previews: some View {
-        backView()
+        backView().environmentObject(ModelData())
     }
 }

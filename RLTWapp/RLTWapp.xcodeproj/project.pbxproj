@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		807C26C62ACEBD12009006E9 /* song.json in Resources */ = {isa = PBXBuildFile; fileRef = 807C26C52ACEBD12009006E9 /* song.json */; };
+		807C26C92ACEC106009006E9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C26C82ACEC106009006E9 /* ModelData.swift */; };
+		807C26CB2ACED1F0009006E9 /* SongRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C26CA2ACED1F0009006E9 /* SongRows.swift */; };
 		808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729752AC61B6E00C769DB /* RLTWappApp.swift */; };
 		808729782AC61B6E00C769DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808729772AC61B6E00C769DB /* ContentView.swift */; };
 		8087297A2AC61B6F00C769DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808729792AC61B6F00C769DB /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		807C26C52ACEBD12009006E9 /* song.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = song.json; sourceTree = "<group>"; };
+		807C26C82ACEC106009006E9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		807C26CA2ACED1F0009006E9 /* SongRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRows.swift; sourceTree = "<group>"; };
 		808729722AC61B6E00C769DB /* RLTWapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLTWapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		808729752AC61B6E00C769DB /* RLTWappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLTWappApp.swift; sourceTree = "<group>"; };
 		808729772AC61B6E00C769DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,14 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		807C26C42ACEBCF4009006E9 /* resorces */ = {
+			isa = PBXGroup;
+			children = (
+				807C26C52ACEBD12009006E9 /* song.json */,
+			);
+			path = resorces;
+			sourceTree = "<group>";
+		};
 		808729692AC61B6E00C769DB = {
 			isa = PBXGroup;
 			children = (
@@ -114,9 +128,10 @@
 		808729742AC61B6E00C769DB /* RLTWapp */ = {
 			isa = PBXGroup;
 			children = (
+				808729752AC61B6E00C769DB /* RLTWappApp.swift */,
+				807C26C42ACEBCF4009006E9 /* resorces */,
 				809176522AC7F2A500CCC015 /* Support */,
 				8091764B2AC6B04700CCC015 /* helper */,
-				808729752AC61B6E00C769DB /* RLTWappApp.swift */,
 				8071B3332AC61D670048C215 /* view */,
 				808729792AC61B6F00C769DB /* Assets.xcassets */,
 				8087297B2AC61B6F00C769DB /* Preview Content */,
@@ -154,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				8091764C2AC6B05900CCC015 /* SongImage.swift */,
+				807C26CA2ACED1F0009006E9 /* SongRows.swift */,
 			);
 			path = helper;
 			sourceTree = "<group>";
@@ -162,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				809176552AC7F32500CCC015 /* mainSupport.swift */,
+				807C26C82ACEC106009006E9 /* ModelData.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -271,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8087297D2AC61B6F00C769DB /* Preview Assets.xcassets in Resources */,
+				807C26C62ACEBD12009006E9 /* song.json in Resources */,
 				8087297A2AC61B6F00C769DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,8 +317,10 @@
 				8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */,
 				809176582AC880A400CCC015 /* ProfilePic.swift in Sources */,
 				8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */,
+				807C26CB2ACED1F0009006E9 /* SongRows.swift in Sources */,
 				809176562AC7F32500CCC015 /* mainSupport.swift in Sources */,
 				809176512AC7F05300CCC015 /* backView.swift in Sources */,
+				807C26C92ACEC106009006E9 /* ModelData.swift in Sources */,
 				808729782AC61B6E00C769DB /* ContentView.swift in Sources */,
 				808729762AC61B6E00C769DB /* RLTWappApp.swift in Sources */,
 			);

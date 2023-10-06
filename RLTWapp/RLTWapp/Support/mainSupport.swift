@@ -8,9 +8,11 @@
 import Foundation
 import SwiftUI
 
-struct mainSupport: Hashable, Codable{
-    struct CustomColor{
-        static let lead = Color("lead")
-        // Add more here...
-    }
+struct mainSupport: Hashable, Codable, Identifiable{
+    var id: Int
+    var song: String
+    var Artist: String
+    
+    
+    
 }
