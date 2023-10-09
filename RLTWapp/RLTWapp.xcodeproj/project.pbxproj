@@ -22,6 +22,7 @@
 		809176512AC7F05300CCC015 /* backView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176502AC7F05300CCC015 /* backView.swift */; };
 		809176562AC7F32500CCC015 /* mainSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176552AC7F32500CCC015 /* mainSupport.swift */; };
 		809176582AC880A400CCC015 /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809176572AC880A400CCC015 /* ProfilePic.swift */; };
+		80D0418C2AD2B0C00083A2D0 /* Playback_friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D0418B2AD2B0C00083A2D0 /* Playback_friend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		809176502AC7F05300CCC015 /* backView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backView.swift; sourceTree = "<group>"; };
 		809176552AC7F32500CCC015 /* mainSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainSupport.swift; sourceTree = "<group>"; };
 		809176572AC880A400CCC015 /* ProfilePic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
+		80D0418B2AD2B0C00083A2D0 /* Playback_friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playback_friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				808729772AC61B6E00C769DB /* ContentView.swift */,
 				809176492AC6ACEE00CCC015 /* playback.swift */,
 				809176502AC7F05300CCC015 /* backView.swift */,
+				80D0418B2AD2B0C00083A2D0 /* Playback_friend.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				8091764D2AC6B05900CCC015 /* SongImage.swift in Sources */,
 				809176582AC880A400CCC015 /* ProfilePic.swift in Sources */,
+				80D0418C2AD2B0C00083A2D0 /* Playback_friend.swift in Sources */,
 				8091764A2AC6ACEE00CCC015 /* playback.swift in Sources */,
 				807C26CB2ACED1F0009006E9 /* SongRows.swift in Sources */,
 				809176562AC7F32500CCC015 /* mainSupport.swift in Sources */,

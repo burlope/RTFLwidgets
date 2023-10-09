@@ -1,9 +1,3 @@
-//
-//  SongRows.swift
-//  RLTWapp
-//
-//  Created by Kadam Dai on 05/10/23.
-//
 
 import SwiftUI
 
@@ -11,8 +5,16 @@ struct SongRows: View {
     var soData: mainSupport
     var body: some View {
         HStack {
-            
-            Text(soData.song)
+            soData.image.resizable().frame(width: 60, height: 60)
+            VStack(alignment: .leading){
+                Text(soData.song)
+                    .font(.title3)
+                    .fontWeight(.bold)
+                
+                Text(soData.Artist)
+                    .font(.body)
+                    .fontWeight(.light)
+            }
             Spacer()
             
         }

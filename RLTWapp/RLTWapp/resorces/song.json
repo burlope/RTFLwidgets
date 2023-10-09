@@ -2,20 +2,30 @@
     {
         "id": 1001,
         "song": "Wake me up when Semtember ends",
-        "Artist": "Green Day"
+        "Artist": "Green Day",
+        "img": "wake_me_up_when_september_ends"
         
     
     },
     {
         "id": 1002,
         "song": "drivers license",
-        "Artist": "Olivia Rodrigo"
+        "Artist": "Olivia Rodrigo",
+        "img": "drivers_license"
         
     },
     {
         "id": 1003,
         "song": "money tree",
-        "Artist": "Kendrick Lamar"
+        "Artist": "Kendrick Lamar",
+        "img": "money_tree"
+        
+    },
+    {
+        "id": 1004,
+        "song": "california girls",
+        "Artist": "katy perry",
+        "img": "california_girls"
         
     },
 ]

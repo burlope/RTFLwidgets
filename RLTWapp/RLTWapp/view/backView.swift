@@ -1,9 +1,3 @@
-//
-//  backView.swift
-//  RLTWapp
-//
-//  Created by Kadam Dai on 30/09/23.
-//
 
 import SwiftUI
 struct xustomColor {
@@ -27,23 +21,42 @@ struct backView: View {
                     
                     VStack{
                         HStack {
-                        ProfilePic(image: Image("proPic"))
+                            VStack{
+                                
+                                ProfilePic(image: Image("proPic")).padding(.leading)
+                                
+                                
+                                
+                                
+                                Text("Suniya").font(.largeTitle).lineLimit(nil).padding(.leading)
+                            }
+                            
+                            Spacer()
+                        }.padding(.leading, 40.0).padding(.bottom, 20.0).background(
+                            CustomColor.lead
+                                .cornerRadius(10)
+                                .ignoresSafeArea()
+                                .overlay(alignment: .top) {
+                                    CustomColor.lead
+                                        .frame(height: 10)
+                                }
+                        ).padding([.top, .leading, .trailing], -40)
+                            
                         
-                            Text("Suniya").font(.largeTitle).padding(.leading)
-                        }.padding()
                         Spacer()
+                        
                         List(modelData.songs){songs in
                             
                                 
-                            SongRows(soData: songs)
+                            SongRows(soData: songs).foregroundColor(.black).listRowBackground(xustomColor.lead)
                         
 
-                        }.padding(.bottom,280).listRowBackground(xustomColor.up_grad).scrollContentBackground(.hidden).navigationTitle("Recently Played")
+                        }.padding(.bottom,230).listRowBackground(xustomColor.up_grad).scrollContentBackground(.hidden)
                     }.padding(.horizontal).padding(.top,50)
                     Spacer()
                     
                 }
-            }.frame(height: 870).padding(.top,30).ignoresSafeArea()
+            }.frame(height: 820).padding(.top,30).ignoresSafeArea()
             
         
         
@@ -51,7 +64,8 @@ struct backView: View {
 }
 
 struct backView_Previews: PreviewProvider {
+    static var Songs=ModelData().songs
     static var previews: some View {
-        backView().environmentObject(ModelData())
+        backView(/*soName: Songs[0]*/).environmentObject(ModelData())
     }
 }

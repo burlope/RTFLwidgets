@@ -1,9 +1,3 @@
-//
-//  ModelData.swift
-//  RLTWapp
-//
-//  Created by Kadam Dai on 05/10/23.
-//
 
 import Foundation
 import Combine

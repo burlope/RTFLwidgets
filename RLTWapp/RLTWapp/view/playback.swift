@@ -1,9 +1,3 @@
-//
-//  playback.swift
-//  RLTWapp
-//
-//  Created by Kadam Dai on 29/09/23.
-//
 
 import SwiftUI
 struct CustomColor {
@@ -12,6 +6,7 @@ struct CustomColor {
 }
 
 struct playback: View {
+    @State private var isPlaying = false
     var body: some View {
         VStack {
             Spacer()
@@ -52,9 +47,16 @@ struct playback: View {
                 HStack(spacing: 40) {
                     Image(systemName: "backward.fill")
                         .font(.system(size: 40))
-                    Image(systemName: "pause.fill")
+                    /*Image(systemName: "pause.fill")
                         .tint(.gray)
-                        .font(.system(size: 50))
+                        .font(.system(size: 50))*/
+                    Button(action: {
+                                self.isPlaying.toggle()
+                            }, label: {
+                                Image(systemName: self.isPlaying ? "pause.fill" : "play.fill").tint(.black).font(.system(size: 50)).ignoresSafeArea()
+                            })
+                    
+                    
                     Image(systemName: "forward.fill")
                         .font(.system(size: 40))
                 }
