@@ -7,6 +7,7 @@ struct CustomColor {
 
 struct playback: View {
     @State private var isPlaying = false
+    //@State private var scale = 1.0
     var body: some View {
         VStack {
             Spacer()
@@ -56,7 +57,12 @@ struct playback: View {
                                 Image(systemName: self.isPlaying ? "pause.fill" : "play.fill").tint(.black).font(.system(size: 50)).ignoresSafeArea()
                             })
                     
-                    
+                    /*Button(action: {
+                                scale += 1
+                            }
+                            .scaleEffect(scale)
+                            .animation(.linear(duration: 1), value: scale)
+                        })*/
                     Image(systemName: "forward.fill")
                         .font(.system(size: 40))
                 }
