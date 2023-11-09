@@ -7,10 +7,9 @@ struct xustomColor {
     // Add more here...
 }
 struct backView: View {
-    //var soName: mainSupport
+    //var soData: mainSupport
     @EnvironmentObject var modelData: ModelData
     static var SONGS=ModelData().songs
-    
     var body: some View {
         
             ZStack{
@@ -20,7 +19,7 @@ struct backView: View {
                 HStack {
                     
                     VStack{
-                        HStack {
+                        HStack(alignment: .firstTextBaseline) {
                             VStack{
                                 
                                 ProfilePic(image: Image("proPic")).padding(.leading)
@@ -29,12 +28,13 @@ struct backView: View {
                                 
                                 
                                 Text("Suniya").font(.largeTitle).lineLimit(nil).padding(.leading)
+                                //Text(soData.Artist)
                             }
-                            
+                            Playback_friend().padding(.top, 80.0).frame(width: /*@START_MENU_TOKEN@*/250.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/150.0/*@END_MENU_TOKEN@*/).ignoresSafeArea()
                             Spacer()
                         }.padding(.leading, 40.0).padding(.bottom, 20.0).background(
                             CustomColor.lead
-                                .cornerRadius(10)
+                                .cornerRadius(60)
                                 .ignoresSafeArea()
                                 .overlay(alignment: .top) {
                                     CustomColor.lead
@@ -66,6 +66,6 @@ struct backView: View {
 struct backView_Previews: PreviewProvider {
     static var Songs=ModelData().songs
     static var previews: some View {
-        backView(/*soName: Songs[0]*/).environmentObject(ModelData())
+        backView().environmentObject(ModelData())
     }
 }

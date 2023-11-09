@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfilePic: View {
     var image: Image
     var body: some View {
-        Image("proPic").resizable().clipShape(Circle()).frame(width: 130,height: 130).shadow(radius: 20)
+        Image("proPic").resizable().clipShape(Circle()).frame(width: 100,height: 100).shadow(radius: 20)
     }
 }
 

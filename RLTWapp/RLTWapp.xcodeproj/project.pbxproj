@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800B57A62AFC97DA00F97A73 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 800B57A52AFC97DA00F97A73 /* SwiftyJSON */; };
 		807C26C62ACEBD12009006E9 /* song.json in Resources */ = {isa = PBXBuildFile; fileRef = 807C26C52ACEBD12009006E9 /* song.json */; };
 		807C26C92ACEC106009006E9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C26C82ACEC106009006E9 /* ModelData.swift */; };
 		807C26CB2ACED1F0009006E9 /* SongRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C26CA2ACED1F0009006E9 /* SongRows.swift */; };
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800B57A62AFC97DA00F97A73 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +204,9 @@
 			dependencies = (
 			);
 			name = RLTWapp;
+			packageProductDependencies = (
+				800B57A52AFC97DA00F97A73 /* SwiftyJSON */,
+			);
 			productName = RLTWapp;
 			productReference = 808729722AC61B6E00C769DB /* RLTWapp.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +279,9 @@
 				Base,
 			);
 			mainGroup = 808729692AC61B6E00C769DB;
+			packageReferences = (
+				800B57A42AFC97DA00F97A73 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 808729732AC61B6E00C769DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -645,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		800B57A42AFC97DA00F97A73 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		800B57A52AFC97DA00F97A73 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 800B57A42AFC97DA00F97A73 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8087296A2AC61B6E00C769DB /* Project object */;
 }
